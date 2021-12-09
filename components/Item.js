@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 
 const Item = props => {
   return (
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   item: {
     backgroundColor: 'white',
     padding: 15,
-    borderRadius: 5,
+    borderRadius: 10,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
@@ -40,9 +40,7 @@ const styles = StyleSheet.create({
   circular: {
     width: 30,
     height: 30,
-    backgroundColor: 'white',
-    borderColor: '#e3f3ff',
-    borderWidth: 2,
+    backgroundColor: '#e3f3ff',
     borderRadius: 15,
     marginRight: 5,
   },
